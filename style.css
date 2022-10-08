@@ -16,6 +16,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 ul {
@@ -29,6 +30,8 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 13px;
+    display: flex;
+    flex-shrink: 0;
 }
 
 /* Styling for footer */
@@ -52,6 +55,7 @@ a {
     color: white;
     padding-left: 125px;
     gap: 40px;
+    flex: 0 0 0;
 }
 
 .left-splash {
@@ -90,4 +94,28 @@ a {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+/* Styling for testimonial-section */
+
+.testimonial-section {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 150px 225px 150px 225px;
+    gap: 15px;
+}
+
+p {
+    font-size: 32px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
 }
