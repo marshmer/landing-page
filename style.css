@@ -1,0 +1,32 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* Styling for Header */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.header-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 13px;
+}
