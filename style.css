@@ -75,10 +75,11 @@ a {
 
 .second-text {
     font-size: 13px;
+    color: #E5E7EB;
 }
 
 .splash-button {
-    background-color: rgb(30, 109, 255);
+    background-color: #3882F6;
     color: white;
     border: none;
     border-radius: 4px;
@@ -118,4 +119,30 @@ h3 {
     display: flex;
     justify-content: flex-end;
     margin: 0;
+}
+
+/* Styling for action-section */
+
+.action-container {
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 125px 100px 125px;
+    padding: 40px 100px 40px 100px;
+}
+
+.action-text-small {
+    font-size: 13px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 3px 18px 3px 18px;
 }
